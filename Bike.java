@@ -10,7 +10,13 @@ Based on return type:
 
 class Bike
 {
-	int speed = 100, gear = 1;
+	int speed, gear;
+
+	Bike() //Default constructor
+	{
+		this.speed = 100;
+		this.gear = 1;
+	}
 	
 	int speedUp() //Default function
 	{
