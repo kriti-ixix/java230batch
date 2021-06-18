@@ -56,6 +56,11 @@ public class Square
 		return currentDelta;
 	}
 
+	public void setPlayer(Player player)
+	{
+		players.add(player);
+	}
+
 	public String toString()
 	{
 		String playerInfo = " ";
